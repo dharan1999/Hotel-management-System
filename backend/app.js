@@ -7,6 +7,8 @@ import { dbConnection } from "./database/dbConnection.js";
 import messageRouter from "./router/messageRouter.js";
 import {errorMiddleware} from "./middlewares/errorMiddleware.js";
 import userRouter from "./router/userRouter.js";
+
+import appointmentRouter from "./router/appointmentRouter.js";
 // Dotenv is a zero-dependency module that loads environment variables 
 // from a .env file into process.env. The dotenv package is a great way to keep passwords, API keys, and other sensitive data out of your code. It allows you to create environment variables in a . env file instead of putting them in your code.
 const app = express();
@@ -36,6 +38,7 @@ app.use(fileUpload({
 
 app.use("/api/v1/message", messageRouter);
 app.use("/api/v1/user", userRouter);
+app.use("/api/v1/appointment", appointmentRouter);
 dbConnection();
 app.use(errorMiddleware);
 
