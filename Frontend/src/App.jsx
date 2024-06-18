@@ -2,11 +2,13 @@ import React, { useContext, useEffect } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
-import Appointment from "./Pages/Appointment";
+
 import AboutUs from "./Pages/AboutUs";
 import Register from "./Pages/Register";
 import Login from "./Pages/Login";
+import Appointment from "./Pages/Appointment";
 import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
@@ -46,7 +48,7 @@ const App = () => {
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
         </Routes>
-
+        <Footer />
         <ToastContainer position="top-center" />
       </Router>
   )
