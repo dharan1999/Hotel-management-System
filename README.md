@@ -8,9 +8,6 @@ Welcome to **Novamed Hospital Management System**! This comprehensive applicatio
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ---
 
