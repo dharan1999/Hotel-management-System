@@ -16,6 +16,7 @@ Welcome to **Novamed Hospital Management System**! This comprehensive applicatio
 - **User Authentication**: Secure login and registration for users.
 - **Department Selection**: Browse and select from a variety of medical departments.
 - **Doctor Appointment Booking**: Schedule appointments with doctors from chosen departments.
+- **Admin Dashboard**: Allows the admin to add new doctors, confirm appointments, and provide other admin-related insights.
 - **Responsive Design**: Accessible on both desktop and mobile devices.
 
 ---
